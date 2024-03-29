@@ -12,35 +12,35 @@
   padding: 0;
 }
 
-/* body {
+body {
   margin: 0;
   font-family: sans-serif;
   background-color: #282d35;
   height: 100vh;
-} */
+} 
 
-/* .nav--logo_icon {
+.nav--logo_icon {
   float: left;
-  height: 6em; /* 30px
+  height: 6em; 
   margin-right: 7px;
-  /* padding: 1.5em; 
-} */
+  /* padding: 1.5em; */
+}
 
-/* .nav {
+.nav {
   background-color: #21222a;
   display: flex;
-  align-items: center; /* This fix the aspect ratio of the image streching 
+  align-items: center; /* This fix the aspect ratio of the image streching */
   height: 90px;
   margin-bottom: 100px;
   padding: 30px 25px;
-} */
+}
 
-/* .nav--logo_text,
+.nav--logo_text,
 .nav--title {
   margin: 0;
-} */
+}
 /* nav > h3 */
-/* .nav--logo_text {
+.nav--logo_text {
   margin-right: auto;
   color: #61dafb;
   font-weight: 700;
@@ -61,11 +61,11 @@
   color: white;
   background-image: url(./assets/react.png);
   background-repeat: no-repeat;
-  background-position-x: right; /* short form of both x and y = background-position: right 75% 
+  background-position-x: right; /* short form of both x and y = background-position: right 75% */
   background-position-y: 75%;
-} */
+}
 
-/* .main--title {
+.main--title {
   margin: 0;
   font-size: 39px;
   font-weight: bold;
@@ -74,17 +74,18 @@
 
 .main--facts {
   margin-top: 46px;
-  max-width: 400px; /* THis wrap the text without taking the entire left right 
-} */
+  max-width: 400px; /* THis wrap the text without taking the entire left right */
+} 
 
 /* All the list children in the class should apply the css */
-/* .main--facts > li {
+.main--facts > li {
   line-height: 19px;
-  padding-block: 10px; /* it allows me to specify the top and bottom at a go 
-} */
+  padding-block: 10px; /* it allows me to specify the top and bottom at a go */
+  font-weight: bold;
+} 
 
 /* styling the bullet */
-/* .main--facts li::marker {
+.main--facts li::marker {
   font-size: 1.4rem;
   color: #61dafb;
 }
@@ -93,9 +94,9 @@
   background-color: #282d35;
   font-size: 16px;
   font-weight: bold;
-} */
+}
 
-body {
+/* body {
   background-color: #282d35;
 }
 .wrapper {
@@ -121,4 +122,4 @@ body {
 .content {
   max-width: 260px;
   margin-left: 35px;
-}
+} */
