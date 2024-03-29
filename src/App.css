@@ -1,0 +1,124 @@
+/* #root {
+  width: 100%;
+  /* max-width: 1280px; */
+/* margin: 0 auto; */
+/* padding: 2rem; */
+/* text-align: center; 
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #282d35;
+  height: 100vh;
+} */
+
+/* .nav--logo_icon {
+  float: left;
+  height: 6em; /* 30px
+  margin-right: 7px;
+  /* padding: 1.5em; 
+} */
+
+/* .nav {
+  background-color: #21222a;
+  display: flex;
+  align-items: center; /* This fix the aspect ratio of the image streching 
+  height: 90px;
+  margin-bottom: 100px;
+  padding: 30px 25px;
+} */
+
+/* .nav--logo_text,
+.nav--title {
+  margin: 0;
+} */
+/* nav > h3 */
+/* .nav--logo_text {
+  margin-right: auto;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav--title {
+  color: #deebf8;
+  font-weight: 600;
+}
+
+.nav--logo_icon {
+  height: 30px;
+}
+
+.main {
+  padding: 57px 27px;
+  color: white;
+  background-image: url(./assets/react.png);
+  background-repeat: no-repeat;
+  background-position-x: right; /* short form of both x and y = background-position: right 75% 
+  background-position-y: 75%;
+} */
+
+/* .main--title {
+  margin: 0;
+  font-size: 39px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px; /* THis wrap the text without taking the entire left right 
+} */
+
+/* All the list children in the class should apply the css */
+/* .main--facts > li {
+  line-height: 19px;
+  padding-block: 10px; /* it allows me to specify the top and bottom at a go 
+} */
+
+/* styling the bullet */
+/* .main--facts li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
+}
+
+.footer {
+  background-color: #282d35;
+  font-size: 16px;
+  font-weight: bold;
+} */
+
+body {
+  background-color: #282d35;
+}
+.wrapper {
+  background-color: #000;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+}
+
+.hijab--logo {
+  width: 300px;
+}
+
+.btn {
+  margin-right: 30px;
+}
+.paragraph {
+  font-size: 10px;
+}
+
+.content {
+  max-width: 260px;
+  margin-left: 35px;
+}
